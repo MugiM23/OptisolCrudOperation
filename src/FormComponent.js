@@ -115,7 +115,7 @@ export default function FormComponent() {
       />
       <div className="register col-md-5 col-sm-6">
         <h1 className="title"><strong>Bio Data</strong></h1>
-        <form role="form">
+        <form >
           <div className="form-group">
             <label className="reg_txt">Name <span>*</span></label>
             <div className="controls form-inline d-flex justify-content-between">
