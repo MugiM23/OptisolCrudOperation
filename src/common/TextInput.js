@@ -19,6 +19,7 @@ export default function TextInput({
         if (errorFieldName && errorFieldName === name) {
             checkFieldValidation()
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [errorFieldName])
 
     const checkFieldValidation = () => {
